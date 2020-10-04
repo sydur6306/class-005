@@ -26,9 +26,9 @@ flex-wrap: wrap;
 }
 .col-1 button{
 	
-padding: 10px 20px;
+padding: 35px -17px;
 	
-margin: 10px;
+/* margin: 10px; */
 	
 background: #fff;
 	
@@ -41,20 +41,30 @@ border: 0;
 margin-left: 0;
 	
 margin-bottom: 17px;
-border:1px solid #237BE5;
+	
+/* border:1px solid #237BE5; */
+	
+font-size: 13px;
+	
+padding: 10px 10px;
 }
 .col-1 button:hover{
 	background:#237BE5;
 	color:#fff;
 }
-
+button.active {
+	background: #237be5 !important;
+    color: #fff !important;
+    outline: 0 !important;
+}
 
 .col-2{
 	width: 45%;
 }
 .col-1 h2{
-    font-size: 34px;
+    font-size: 27px;
     padding-right: 20px;
+    max-width: 300px;
 }
 .col-2 img{
 	
@@ -62,6 +72,7 @@ padding-left: 38px;
 }
 .col-1 p{
     padding-right: 15px;
+    max-width: 300px;
 }
 img{
 	width:100%;
